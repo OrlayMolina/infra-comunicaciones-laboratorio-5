@@ -231,7 +231,7 @@ function FormularioProfesores() {
       {/* Botones de acciones */}
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row justify-between gap-4">
         <button onClick={guardarProfesor} className="bg-green-500 text-white px-4 py-2 rounded-md w-full sm:w-auto">
-          Agregar
+          Agregar / Actualizar
         </button>
         <button onClick={consultarProfesores} className="bg-blue-500 text-white px-4 py-2 rounded-md w-full sm:w-auto">
           Consultar
@@ -285,6 +285,15 @@ function FormularioProfesores() {
           </tbody>
 
         </table>
+      </div>
+
+      <div className="text-center mt-8 m-4">
+        <a
+          href="index.html"
+          className="text-white hover:underline text-lg bg-green-600 hover:bg-green-400 py-3 px-6 rounded-md"
+        >
+          Página Principal
+        </a>
       </div>
     </>
   );
