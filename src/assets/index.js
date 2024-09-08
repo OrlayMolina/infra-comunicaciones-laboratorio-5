@@ -151,8 +151,8 @@ function limpiarFormulario() {
 }
 
 window.onload = function() {
-    document.getElementById("btnAgregar").addEventListener("click", guardarProfesor);
-    document.getElementById("btnCalcular").addEventListener("click", guardarProfesor);
-    document.getElementById("btnConsultar").addEventListener("click", filtrarProfesores);
-    mostrarProfesores();
+  document.getElementById("btnAgregar").addEventListener("click", guardarProfesor);
+  document.getElementById("btnCalcular").addEventListener("click", guardarProfesor);
+  document.getElementById("btnConsultar").addEventListener("click", filtrarProfesores);
+  mostrarProfesores();
 };
